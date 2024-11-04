@@ -1,0 +1,17 @@
+*{
+    font-family: "Netoo";
+}
+
+.nav-left i {
+    font-size: 40px;
+    color: orange;
+}
+
+@media only screen and (max-width: 500px){
+    .nav-left {
+        font-size: 25px;
+    }
+    .nav-left i {
+        font-size: 30px;
+    }
+}

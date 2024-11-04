@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Neto";
+    src: url('../assets/neto.otf');
+}
+@font-face {
+    font-family: "Netoo";
+    src: url('../assets/netoo.otf');
+}
+@font-face {
+    font-family: "Netooo";
+    src: url('../assets/netooo.otf');
+}

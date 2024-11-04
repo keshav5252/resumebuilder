@@ -1,0 +1,12 @@
+
+.hero {
+    height: calc(100vh - 70px);
+}
+
+.monitor {
+    transform: translate(-50%, 0);
+    border: 10px solid rgba(255, 68, 0, 0.9);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 50px 4px rgba(255, 166, 0, 0.5);
+}
