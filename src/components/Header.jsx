@@ -10,7 +10,7 @@ const Header = () => {
             Quick<span className='text-orange-500'>CV</span>
         </div>
         <div className="nav-right">
-            <a href="/" className='px-3 py-2 border rounded-md text-white hover:bg-white hover:text-black duration-150'><i className="ri-github-fill mr-1"></i>Github</a>
+            <a href="https://github.com/keshav5252/resumebuilder" className='px-3 py-2 border rounded-md text-white hover:bg-white hover:text-black duration-150'><i className="ri-github-fill mr-1"></i>Github</a>
         </div>
       </nav>
     </header>

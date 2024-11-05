@@ -1,13 +1,18 @@
 import React, { useRef, useEffect } from "react";
 import "../styles/Home.css";
 import gsap from "gsap";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const monitor = useRef(null);
   const text = useRef(null);
   const btn = useRef(null);
-
-
+  const navigate = useNavigate();
+  function trans() {
+    
+    navigate('/templates')
+  }
+  
   useEffect(() => {
 
     const ctx = gsap.context(() => {
@@ -46,6 +51,7 @@ const Hero = () => {
       </h1>
       <button
         ref={btn}
+        onClick={trans}
         className="bg-white flex py-2 px-3 gap-1 rounded-full hover:bg-[#e4e4e4]"
       >
         <i className="ri-add-circle-fill"></i>Create
